@@ -39,11 +39,11 @@ if(isset($_GET['id']) && !empty($_GET['id'])) {
         <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
         <table>
             <tr>
-                <td>Nama</td>
+                <td>Nama Anda</td>
                 <td><input type="text" name="nama" value="<?php echo $row['nama']; ?>" required></td>
             </tr>
             <tr>
-                <td>Email</td>
+                <td>Email Anda</td>
                 <td><input type="text" name="email" value="<?php echo $row['email']; ?>" required></td>
             </tr>
             <tr>
@@ -51,7 +51,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])) {
                 <td><input type="text" name="url" value="<?php echo $row['url']; ?>" required></td>
             </tr>
             <tr>
-                <td>Komentar</td>
+                <td>Komentar Anda</td>
                 <td><textarea name="komentar" required><?php echo $row['komentar']; ?></textarea></td>
             </tr>
             <tr>
